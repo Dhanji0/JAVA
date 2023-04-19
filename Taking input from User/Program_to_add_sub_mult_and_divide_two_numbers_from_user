@@ -1,0 +1,24 @@
+// Taking input from User
+// Show use of arithmetic operator
+
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        int num1,num2,add,subtract,multiply,modulus;
+        float divide;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the two number");
+        n1=sc.nextInt();
+        n2=sc.nextInt();
+        add=n1+n2;
+        subtract=n1-n2;
+        multiply=n1*n2;
+        divide=n1/n2;
+        modulus=n1%n2;
+        System.out.println("sum="+add);
+        System.out.println("difference="+subtract);
+        System.out.println("multiplication="+multiply);
+        System.out.println("division="+divide);
+        System.out.println("modulo="+modulus);
+    }
+}
